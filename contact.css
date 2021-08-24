@@ -424,6 +424,7 @@ textarea.contact-form-text{
     padding: 18px;
     background: #5F5F5F;
     height: 250px;
+    text-align: left;
   }
   .column a {
     display: block;

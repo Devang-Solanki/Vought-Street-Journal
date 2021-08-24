@@ -92,7 +92,7 @@ form {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 59;
   }
   
   /* Add a hover effect for buttons */
@@ -121,11 +121,12 @@ form {
   /* The "Forgot password" text */
   span.psw {
     float: right;
-    padding-top: 16px;
+    padding-top: 0px;
     font-family: myfontb;
     text-decoration: none;
     color: blue;
   }
+
   
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {
@@ -367,7 +368,7 @@ footer{
     color: #ddd;
     text-transform: uppercase;
     font-size: 12px;
-    padding: 12px 20px;
+    padding: 14px 25px;
     border-radius: 4px;
     transition: .3s linear;
     font-weight: bold;
@@ -432,4 +433,15 @@ footer{
     font-weight: lighter;
     color: white;
     text-align: left;
+  }
+  .newscontent{
+    background: transparent;
+    border : 3px solid white;
+    padding: 3px;
+  }
+  h5{
+    font-size: 14px;
+  }
+  h6{
+    font-size: 17px;
   }
